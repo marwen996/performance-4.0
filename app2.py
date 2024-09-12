@@ -9,7 +9,6 @@ import time
 import csv
 from datetime import datetime
 import matplotlib.pyplot as plt
-import streamviz
 import plotly.graph_objects as go
 
 
