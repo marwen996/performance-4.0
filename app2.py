@@ -30,7 +30,7 @@ mycursor.execute('''select * from Real_Time_Table''')
 myresult2 = mycursor.fetchall()
 # ---- SIDEBAR ----
 with st.sidebar:
-    st.sidebar.image("Image/logo99.png",width=300,caption="")
+    st.sidebar.image("logo99.png",width=300,caption="")
     selected = option_menu(
     menu_title = "Menu Principal",
     options = ["Dashboard Live","Arrêts","Production"],
